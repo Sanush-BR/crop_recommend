@@ -15,7 +15,7 @@ app  = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000","http://localhost:5500","https://crop-predict1.herokuapp.com/"],
+    allow_origins=["http://localhost:3000","http://localhost:5500","https://crop-predict1.herokuapp.com"],
     allow_credentials=True,
     allow_methods=["GET","POST"],
     allow_headers=["*"],
